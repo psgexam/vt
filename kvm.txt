@@ -8,3 +8,5 @@ install kvm : $ sudo apt install -y qemu-kvm virt-manager libvirt-daemon-system 
 start and enable virt daemon : $ sudo systemctl start libvirtd
                                $ sudo systemctl status libvirtd
 add logged-in user : $ sudo usermod -aG libvirt $USER
+
+sudo virt-manager
